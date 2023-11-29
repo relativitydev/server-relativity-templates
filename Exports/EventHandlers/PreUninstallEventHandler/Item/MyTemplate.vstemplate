@@ -1,8 +1,8 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
-    <DefaultName>Relativity PreUninstallEventHandler.cs</DefaultName>
-    <Name>Relativity PreUninstallEventHandler</Name>
-    <Description>Item Template for Relativity PreUninstallEventHandler</Description>
+    <DefaultName>Relativity Server PreUninstallEventHandler.cs</DefaultName>
+    <Name>Relativity Server PreUninstallEventHandler</Name>
+    <Description>Item Template for Relativity Server PreUninstallEventHandler</Description>
     <ProjectType>CSharp</ProjectType>
     <SortOrder>10</SortOrder>
     <Icon>__TemplateIcon.ico</Icon>

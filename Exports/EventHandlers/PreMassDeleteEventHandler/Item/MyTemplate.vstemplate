@@ -1,8 +1,8 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
-    <DefaultName>Relativity PreMassDeleteEventHandler.cs</DefaultName>
-    <Name>Relativity PreMassDeleteEventHandler</Name>
-    <Description>Item Template for Relativity PreMassDeleteEventHandler</Description>
+    <DefaultName>Relativity Server PreMassDeleteEventHandler.cs</DefaultName>
+    <Name>Relativity Server PreMassDeleteEventHandler</Name>
+    <Description>Item Template for Relativity Server PreMassDeleteEventHandler</Description>
     <ProjectType>CSharp</ProjectType>
     <SortOrder>10</SortOrder>
     <Icon>__TemplateIcon.ico</Icon>

@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
     <Name>Agents.NUnit</Name>
-    <Description>Project Template for Relativity Manager Worker Agents.NUnit</Description>
+    <Description>Project Template for Relativity Server Manager Worker Agents.NUnit</Description>
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
     <DefaultName>Agents.NUnit</DefaultName>
@@ -35,9 +35,9 @@
 			<package id="Moq" version="4.2.1510.2205" />
 			<package id="Newtonsoft.Json" version="8.0.3" />
 			<package id="NUnit" version="2.6.3" />
-			<package id="Relativity.Agent" version="17.0.4" />
-			<package id="Relativity.API" version="17.0.4" />
-			<package id="Relativity.Logging" version="2019.5.1" />
+			<package id="Relativity.Server.Agent.SDK" version="17.4.2" />
+			<package id="Relativity.Server.API.SDK" version="17.4.2" />
+			<package id="Relativity.Server.Logging.SDK" version="3000.4.4" />
 			<package id="Relativity.ObjectManager" version="10.3.191.8" />
 			<package id="Relativity.Other" version="10.3.191.8" />
 		</packages>

@@ -1,8 +1,8 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
-    <DefaultName>Relativity PreLoadEventHandler.cs</DefaultName>
-    <Name>Relativity PreLoadEventHandler</Name>
-    <Description>Item Template for Relativity PreLoadEventHandler</Description>
+    <DefaultName>Relativity Server PreLoadEventHandler.cs</DefaultName>
+    <Name>Relativity Server PreLoadEventHandler</Name>
+    <Description>Item Template for Relativity Server PreLoadEventHandler</Description>
     <ProjectType>CSharp</ProjectType>
     <SortOrder>10</SortOrder>
     <Icon>__TemplateIcon.ico</Icon>

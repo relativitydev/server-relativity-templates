@@ -1,8 +1,8 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
-    <DefaultName>Relativity ConsoleEventHandler.cs</DefaultName>
-    <Name>Relativity ConsoleEventHandler</Name>
-    <Description>Item Template for Relativity ConsoleEventHandler</Description>
+    <DefaultName>Relativity Server ConsoleEventHandler.cs</DefaultName>
+    <Name>Relativity Server ConsoleEventHandler</Name>
+    <Description>Item Template for Relativity Server ConsoleEventHandler</Description>
     <ProjectType>CSharp</ProjectType>
     <SortOrder>10</SortOrder>
     <Icon>__TemplateIcon.ico</Icon>

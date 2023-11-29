@@ -1,9 +1,14 @@
-# Changelog for Relativity VS Templates
+# Changelog for Relativity Server VS Templates
 
 - This file is used to list changes made in the relativity-templates repo.
 - **Place Newer updates on the top**
 
 -------------------------
+
+## 2023-11-29
+
+- REL-879812 - Updated package refernces to Relativity Server packages
+
 
 ## 2021-03-12
 

@@ -2,7 +2,7 @@
 <VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
     <Name>Relativity.Kepler.IService</Name>
-    <Description>Add a Relativity Kepler IService</Description>
+    <Description>Add a Relativity Server Kepler IService</Description>
     <Icon>favicon.ico</Icon>
     <TemplateID>d1efcf98-3440-4de9-b938-69c87cc794a9</TemplateID>
     <ProjectType>CSharp</ProjectType>
