@@ -93,14 +93,12 @@
         <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\Relativity\Kepler\KeplerTemplate.zip" />
         <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="File" Path="ItemTemplates" d:TargetPath="ItemTemplates\Relativity\Kepler\KeplerIModule.zip" />
         <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="File" Path="ItemTemplates" d:TargetPath="ItemTemplates\Relativity\Kepler\KeplerIService.zip" />
-        <Asset Type="File" d:Source="File" Path="packages\relativity.api.10.3.191.8.nupkg" />
         <Asset Type="File" d:Source="File" Path="packages\relativity.kepler.2.3.2.nupkg" />
         <Asset Type="File" d:Source="File" Path="packages\relativity.api.10.3.226.8.nupkg" />
         <Asset Type="File" d:Source="File" Path="packages\relativity.custompages.10.3.226.8.nupkg" />
         <Asset Type="File" d:Source="File" Path="packages\relativity.eventhandler.10.3.226.8.nupkg" />
         <Asset Type="File" d:Source="File" Path="packages\relativity.objectmanager.10.3.226.8.nupkg" />
         <Asset Type="File" d:Source="File" Path="packages\relativity.other.10.3.226.8.nupkg" />
-        <Asset Type="File" d:Source="File" Path="packages\Relativity.Logging.2019.5.1.nupkg" />
         <Asset Type="File" d:Source="File" Path="packages\Microsoft.AspNet.Mvc.5.2.4.nupkg" />
         <Asset Type="File" d:Source="File" Path="packages\Microsoft.AspNet.Razor.3.2.4.nupkg" />
         <Asset Type="File" d:Source="File" Path="packages\Microsoft.AspNet.WebPages.3.2.4.nupkg" />
@@ -117,14 +115,14 @@
         <Asset Type="File" d:Source="File" d:VsixSubPath=" " Path="packages\Relativity.Transfer.Client.6.0.16.nupkg" />
         <Asset Type="File" d:Source="File" Path="packages\SSH.NET.2016.0.0.nupkg" />
         <Asset Type="File" d:Source="File" Path="packages\ZetaLongPaths.1.0.0.16.nupkg" />
-        <Asset Type="File" d:Source="File" Path="packages\Relativity.Agent.17.0.4.nupkg" />
-        <Asset Type="File" d:Source="File" Path="packages\Relativity.API.17.0.4.nupkg" />
-        <Asset Type="File" d:Source="File" Path="packages\Relativity.ObjectManager.10.3.191.8.nupkg" />
-        <Asset Type="File" d:Source="File" Path="packages\Relativity.CustomPages.10.3.191.8.nupkg" />
-        <Asset Type="File" d:Source="File" Path="packages\Relativity.EventHandler.17.0.2.nupkg" />
         <Asset Type="File" d:Source="File" Path="packages\Relativity.Other.10.3.191.8.nupkg" />
         <Asset Type="jQuery.Validation.1.19.3.nupkg" d:Source="File" Path="packages\jQuery.Validation.1.19.3.nupkg" d:VsixSubPath="packages" />
         <Asset Type="jQuery.3.6.0.nupkg" d:Source="File" Path="packages\jQuery.3.6.0.nupkg" d:VsixSubPath="Packages" />
+        <Asset Type="File" d:Source="File" Path="packages\relativity.server.agent.sdk.17.4.2.nupkg" d:VsixSubPath="packages" />
+        <Asset Type="File" d:Source="File" Path="packages\relativity.server.api.sdk.17.4.2.nupkg" d:VsixSubPath="packages" />
+        <Asset Type="File" d:Source="File" Path="packages\relativity.server.custompages.sdk.17.4.2.nupkg" d:VsixSubPath="packages" />
+        <Asset Type="File" d:Source="File" Path="packages\relativity.server.eventhandler.sdk.17.4.2.nupkg" d:VsixSubPath="packages" />
+        <Asset Type="File" d:Source="File" Path="packages\relativity.server.logging.sdk.3000.4.4.nupkg" d:VsixSubPath="packages" />
     </Assets>
     <Prerequisites>
         <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.7.33905.399,18.0)" DisplayName="Visual Studio core editor" />
