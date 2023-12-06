@@ -27,7 +27,7 @@
 		<FullClassName>NuGet.VisualStudio.TemplateWizard</FullClassName>
 	</WizardExtension>
 	<WizardData>
-		<packages repository="extension" repositoryId="Relativity.Templates.10a39f04-8755-4444-9928-c25527b9209b">
+		<packages repository="extension" repositoryId="Relativity.Server.Templates.9987bc59-a092-4730-9e0d-b4a1d727a0f3">
 			<package id="Relativity.Server.API.SDK" version="17.4.2" />
 			<package id="Relativity.Server.EventHandler.SDK" version="17.4.2" />
 			<package id="Relativity.ObjectManager" version="10.3.191.8" />
