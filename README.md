@@ -1,5 +1,5 @@
 # relativity-templates
-The Relativity Templates are compatible with Visual Studio 2017 and 2019 and consist of the following:
+The Relativity Server Templates are compatible with Visual Studio 2022 and consist of the following:
 - Agent template
 - Custom page templates
     - Custom page MVC 5 template
@@ -18,7 +18,7 @@ The Relativity Templates are compatible with Visual Studio 2017 and 2019 and con
     - Pre-Save Event handler template
     - Pre-Uninstall Event handler template
 - Manager-Worker Agent template
-- Kepler (for Relativity Versions 10.3.191.8 and higher)
+- Kepler
     - Kepler Project Template (creates Interfaces and Services projects in one go, has a UI Wizard)
     - Kepler Exception Item Template
     - Kepler Exception.FaultSafe Item Template
@@ -29,7 +29,7 @@ The Relativity Templates are compatible with Visual Studio 2017 and 2019 and con
 
 ## Maintainers
 
-This repository is maintained by . Feel free to reach out to our team for any questions or requests.
+This repository is maintained by the Relativit Server Vertical.
 
 ---
 
