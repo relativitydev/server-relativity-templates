@@ -18,22 +18,15 @@ The Relativity Server Templates are compatible with Visual Studio 2022 and consi
     - Pre-Save Event handler template
     - Pre-Uninstall Event handler template
 - Manager-Worker Agent template
-- Kepler
-    - Kepler Project Template (creates Interfaces and Services projects in one go, has a UI Wizard)
-    - Kepler Exception Item Template
-    - Kepler Exception.FaultSafe Item Template
-    - Kepler IModule Item Template
-    - Kepler IService Item Template
-    - Kepler Module Item Template
-    - Kepler Serice Item Template
+- Kepler Project Template (creates Interfaces and Services projects in one go, has a UI Wizard)
 
 ## Maintainers
 
-This repository is maintained by the Relativit Server Vertical.
+This repository is maintained by the Relativity Server Vertical.
 
 ---
 
-### Installation
+## Installation
 To install all of the templates simply double click the .vsix file and click the “Install” button. If Visual Studio is already open you will have to restart it for the templates to populate.
 
 ## Project Templates
@@ -60,7 +53,7 @@ All the Relativity Item Templates will be found under:
 _* Note that if the project you add the item to does not have the correct references added, Visual Studio will tell you that you are missing assembly references._
 
 ## Manager-Worker Agent template
-The Manager-Worker Agent project template is an architectural pattern where a long-running Agent task can be split into single or multiple manager/worker agents and execute the task in parallel. This template also consists recommended best practices for coding and features like resource-pool aware agents, configure agents to run in off hours, a custom page to view manager/worker agents progress, unit tests projects etc.
+The Manager-Worker Agent project template is an architectural pattern where a long-running Agent task can be split into single or multiple manager/worker agents and execute the task in parallel. This template also contains recommended best practices for coding and features like resource-pool aware agents, configure agents to run in off hours, a custom page to view manager/worker agents progress, unit tests projects etc.
 
 The following projects are created:
 
@@ -76,8 +69,8 @@ The following projects are created:
 
 	This project includes custom pages to manage both the worker and the manager queue.  Once you create an application which includes the custom pages, you can create a tab to view each queue using the following URLs:
 
- */Relativity/CustomPages/<AppGuid>/ManagerAgent/Index/?StandardsCompliance=true&%AppID%*
- */Relativity/CustomPages/<AppGuid>/WorkerAgent/Index/?StandardsCompliance=true&%AppID%*
+        */Relativity/CustomPages/\<AppGuid>/ManagerAgent/Index/?StandardsCompliance=true&%AppID%*
+        */Relativity/CustomPages/\<AppGuid>/WorkerAgent/Index/?StandardsCompliance=true&%AppID%*
 
  - **CustomPages.NUnit**
 
