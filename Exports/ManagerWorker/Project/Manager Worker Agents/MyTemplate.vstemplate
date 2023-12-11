@@ -3,8 +3,6 @@
     <Name>Agents</Name>
     <Description>Project Template for Relativity Server Manager Worker Agents</Description>
     <ProjectType>CSharp</ProjectType>
-    <ProjectSubType>
-    </ProjectSubType>
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
     <DefaultName>Agents</DefaultName>
@@ -12,6 +10,7 @@
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
     <Icon>__TemplateIcon.png</Icon>
+    <Hidden>true</Hidden>
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="Agents.csproj" File="Agents.csproj" ReplaceParameters="true">
@@ -37,7 +36,6 @@
 	</WizardExtension>
 	<WizardData>
 		<packages repository="extension" repositoryId="Relativity.Server.Templates.9987bc59-a092-4730-9e0d-b4a1d727a0f3">
-		  <package id="BCrypt.Net-Core" version="1.6.0" />
 		  <package id="BCrypt-Official" version="0.1.109" />
 		  <package id="Newtonsoft.Json" version="8.0.3" />
 		  <package id="Relativity.Server.Agent.SDK" version="17.4.2" />
