@@ -78,7 +78,6 @@
   <ItemGroup>
     <None Include="AssemblyInfo.cs" />
     <None Include="ProjectTemplate.csproj" />
-    <None Include="Service.ico" />
   </ItemGroup>
   <ItemGroup>
     <VSTemplate Include="Services.vstemplate">
