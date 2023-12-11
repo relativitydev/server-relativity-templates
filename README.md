@@ -18,7 +18,14 @@ The Relativity Server Templates are compatible with Visual Studio 2022 and consi
     - Pre-Save Event handler template
     - Pre-Uninstall Event handler template
 - Manager-Worker Agent template
-- Kepler Project Template (creates Interfaces and Services projects in one go, has a UI Wizard)
+- Kepler
+    - Kepler Project Template (creates Interfaces and Services projects in one go, has a UI Wizard)
+    - Kepler Exception Item Template
+    - Kepler Exception.FaultSafe Item Template
+    - Kepler IModule Item Template
+    - Kepler IService Item Template
+    - Kepler Module Item Template
+    - Kepler Serice Item Template
 
 ## Maintainers
 
