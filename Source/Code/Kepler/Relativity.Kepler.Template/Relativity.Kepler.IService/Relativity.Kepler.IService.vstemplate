@@ -3,7 +3,7 @@
   <TemplateData>
     <Name>Relativity.Kepler.IService</Name>
     <Description>Add a Relativity Server Kepler IService</Description>
-    <Icon>favicon.ico</Icon>
+    <Icon>favicon.png</Icon>
     <TemplateID>d1efcf98-3440-4de9-b938-69c87cc794a9</TemplateID>
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>

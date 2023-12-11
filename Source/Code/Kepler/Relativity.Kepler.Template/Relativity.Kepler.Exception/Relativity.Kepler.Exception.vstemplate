@@ -3,7 +3,7 @@
   <TemplateData>
     <Name>Relativity.Kepler.Exception</Name>
     <Description>Add a Relativity Server Kepler Exception</Description>
-    <Icon>favicon.ico</Icon>
+    <Icon>favicon.png</Icon>
     <TemplateID>dc164600-42bf-4b66-8efa-c45975641d68</TemplateID>
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>

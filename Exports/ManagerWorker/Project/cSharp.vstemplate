@@ -11,7 +11,7 @@
     <ProvideDefaultName>true</ProvideDefaultName>  
     <LocationField>Enabled</LocationField>  
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>  
-    <Icon>favicon.ico</Icon>  
+    <Icon>favicon.png</Icon>  
   </TemplateData>  
   <TemplateContent>  
 	<ProjectCollection>

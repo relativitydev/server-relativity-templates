@@ -11,7 +11,7 @@
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
-    <Icon>__TemplateIcon.ico</Icon>
+    <Icon>__TemplateIcon.png</Icon>
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="CustomPages.csproj" File="CustomPages.csproj" ReplaceParameters="true">
@@ -143,42 +143,43 @@
       <ProjectItem ReplaceParameters="true" TargetFileName="Web.Release.config">Web.Release.config</ProjectItem>
     </Project>
   </TemplateContent>
-    <WizardExtension>
+	<WizardExtension>
 		<Assembly>NuGet.VisualStudio.Interop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
 		<FullClassName>NuGet.VisualStudio.TemplateWizard</FullClassName>
 	</WizardExtension>
-	<WizardExtension>
-		<Assembly>RelativityWizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Assembly>
-		<FullClassName>RelativityWizard.ChildWizard</FullClassName>
-	</WizardExtension>
 	<WizardData>
 		<packages repository="extension" repositoryId="Relativity.Server.Templates.9987bc59-a092-4730-9e0d-b4a1d727a0f3">
-			<package id="Antlr" version="3.4.1.9004" />
-			<package id="BCrypt-Official" version="0.1.109" />
-			<package id="bootstrap" version="4.3.1" />
-			<package id="jQuery" version="3.6.0" />
-			<package id="jQuery.Validation" version="1.19.3" />
-			<package id="Microsoft.AspNet.Mvc" version="5.2.4" />
-			<package id="Microsoft.AspNet.Mvc.FixedDisplayModes" version="5.0.0" />
-			<package id="Microsoft.AspNet.Razor" version="3.2.4" />
-			<package id="Microsoft.AspNet.Web.Optimization" version="1.1.3" />
-			<package id="Microsoft.AspNet.WebApi" version="4.0.20710.0" />
-			<package id="Microsoft.AspNet.WebApi.Client" version="4.0.20710.0" />
-			<package id="Microsoft.AspNet.WebApi.Core" version="4.0.20710.0" />
-			<package id="Microsoft.AspNet.WebApi.WebHost" version="4.0.20710.0" />
-			<package id="Microsoft.AspNet.WebPages" version="3.2.4" />
-			<package id="Microsoft.jQuery.Unobtrusive.Ajax" version="3.2.2" />
-			<package id="Microsoft.jQuery.Unobtrusive.Validation" version="3.2.2" />
-			<package id="Microsoft.Net.Http" version="2.0.20710.0" />
-			<package id="Microsoft.Web.Infrastructure" version="1.0.0.0" />
-			<package id="Newtonsoft.Json" version="8.0.3" />
-			<package id="popper.js" version="1.14.0" />
-			<package id="Relativity.Server.API.SDK" version="17.4.2" />
-			<package id="Relativity.Server.CustomPages.SDK" version="17.4.2" />
-			<package id="Relativity.Server.Logging.SDK" version="3000.4.4" />
-			<package id="Relativity.ObjectManager" version="10.3.191.8" />
-			<package id="Relativity.Other" version="10.3.191.8" />
-			<package id="WebGrease" version="1.5.2" />
+		  <package id="Antlr" version="3.4.1.9004" />
+		  <package id="BCrypt.Net-Core" version="1.6.0" />
+		  <package id="BCrypt-Official" version="0.1.109" />
+		  <package id="bootstrap" version="4.3.1" />
+		  <package id="jQuery" version="3.6.0" />
+		  <package id="jQuery.Validation" version="1.19.3" />
+		  <package id="Microsoft.AspNet.Mvc" version="5.2.4" />
+		  <package id="Microsoft.AspNet.Mvc.FixedDisplayModes" version="5.0.0" />
+		  <package id="Microsoft.AspNet.Razor" version="3.2.4" />
+		  <package id="Microsoft.AspNet.Web.Optimization" version="1.1.3" />
+		  <package id="Microsoft.AspNet.WebApi" version="4.0.20710.0" />
+		  <package id="Microsoft.AspNet.WebApi.Client" version="4.0.20710.0" />
+		  <package id="Microsoft.AspNet.WebApi.Core" version="4.0.20710.0" />
+		  <package id="Microsoft.AspNet.WebApi.WebHost" version="4.0.20710.0" />
+		  <package id="Microsoft.AspNet.WebPages" version="3.2.4" />
+		  <package id="Microsoft.jQuery.Unobtrusive.Ajax" version="3.2.2" />
+		  <package id="Microsoft.jQuery.Unobtrusive.Validation" version="3.2.2" />
+		  <package id="Microsoft.Net.Http" version="2.0.20710.0" />
+		  <package id="Microsoft.Web.Infrastructure" version="1.0.0.0" />
+		  <package id="Newtonsoft.Json" version="8.0.3" />
+		  <package id="popper.js" version="1.14.0" />
+		  <package id="Relativity.Server.API.SDK" version="17.4.2" />
+		  <package id="Relativity.Server.$safeprojectname$.SDK" version="17.4.2" />
+		  <package id="Relativity.Server.Kepler.SDK" version="2.15.6" />
+		  <package id="Relativity.Server.Logging.Interfaces.SDK" version="3000.4.4" />
+		  <package id="Relativity.Server.Logging.SDK" version="3000.4.4" />
+		  <package id="Relativity.Server.ObjectManager.SDK" version="1.1.2" />
+		  <package id="Relativity.Server.SDK" version="49.0.0" />
+		  <package id="Relativity.Server.Shared.SDK" version="1.7.1" />
+		  <package id="Relativity.Server.Utility.SDK" version="14.2.7" />
+		  <package id="WebGrease" version="1.5.2" />
 		</packages>
 	</WizardData>
 </VSTemplate>

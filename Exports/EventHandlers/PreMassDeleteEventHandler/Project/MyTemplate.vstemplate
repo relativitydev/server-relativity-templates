@@ -1,6 +1,6 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>Relativity ServerServer PreMassDeleteEventHandler</Name>
+    <Name>Relativity Server PreMassDeleteEventHandler</Name>
     <Description>Project Template for Relativity Server PreMassDeleteEventHandler</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
@@ -11,7 +11,7 @@
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
-    <Icon>__TemplateIcon.ico</Icon>
+    <Icon>__TemplateIcon.png</Icon>
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="Relativity PreMassDeleteEventHandler.csproj" File="Relativity PreMassDeleteEventHandler.csproj" ReplaceParameters="true">
@@ -28,9 +28,11 @@
 	</WizardExtension>
 	<WizardData>
 		<packages repository="extension" repositoryId="Relativity.Server.Templates.9987bc59-a092-4730-9e0d-b4a1d727a0f3">
-		<package id="Relativity.Server.API.SDK" version="17.4.2" />
-		<package id="Relativity.Server.EventHandler.SDK" version="17.4.2" />
-		<package id="Relativity.ObjectManager" version="10.3.191.8" />
+		  <package id="Relativity.Server.API.SDK" version="17.4.2" />
+		  <package id="Relativity.Server.EventHandler.SDK" version="17.4.2" />
+		  <package id="Relativity.Server.Kepler.SDK" version="2.15.6" />
+		  <package id="Relativity.Server.ObjectManager.SDK" version="1.1.2" />
+		  <package id="Relativity.Server.Shared.SDK" version="1.7.1" />
 		</packages>
 	</WizardData>
 </VSTemplate>

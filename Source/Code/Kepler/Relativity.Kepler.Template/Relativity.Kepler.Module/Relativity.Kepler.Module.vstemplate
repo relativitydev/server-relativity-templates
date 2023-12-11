@@ -3,7 +3,7 @@
   <TemplateData>
     <Name>Relativity.Kepler.Module</Name>
     <Description>Add a Relativity Server Kepler Module</Description>
-    <Icon>favicon.ico</Icon>
+    <Icon>favicon.png</Icon>
     <TemplateID>ba3b0cb1-27f8-443c-abdb-702c53bfe301</TemplateID>
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>

@@ -4,7 +4,7 @@
     <Hidden>true</Hidden>
     <Name>Interfaces</Name>
     <Description>Interfaces</Description>
-    <Icon>favicon.ico</Icon>
+    <Icon>favicon.png</Icon>
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <SortOrder>1000</SortOrder>

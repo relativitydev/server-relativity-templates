@@ -5,10 +5,10 @@
     <Description>Item Template for Relativity Server Agent</Description>
     <ProjectType>CSharp</ProjectType>
     <SortOrder>10</SortOrder>
-    <Icon>__TemplateIcon.ico</Icon>
+    <Icon>__TemplateIcon.png</Icon>
   </TemplateData>
   <TemplateContent>
     <References />
-    <ProjectItem SubType="" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">Relativity Agent.cs</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">RelativityAgent.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

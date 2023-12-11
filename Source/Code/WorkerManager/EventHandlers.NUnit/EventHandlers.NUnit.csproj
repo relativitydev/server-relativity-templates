@@ -32,22 +32,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="kCura.EventHandler, Version=17.0.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Relativity.EventHandler.17.0.2\lib\net462\kCura.EventHandler.dll</HintPath>
+    <Reference Include="kCura.EventHandler, Version=17.4.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Relativity.Server.EventHandler.SDK.17.4.2\lib\net462\kCura.EventHandler.dll</HintPath>
     </Reference>
     <Reference Include="Moq, Version=4.2.1510.2205, Culture=neutral, PublicKeyToken=69f491c39445e920, processorArchitecture=MSIL">
       <HintPath>..\packages\Moq.4.2.1510.2205\lib\net40\Moq.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="nunit.framework, Version=2.6.3.13283, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
-      <Private>True</Private>
     </Reference>
-    <Reference Include="Relativity.API, Version=17.0.4.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Relativity.API.17.0.4\lib\net462\Relativity.API.dll</HintPath>
+    <Reference Include="Relativity.API, Version=17.4.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Relativity.Server.API.SDK.17.4.2\lib\net462\Relativity.API.dll</HintPath>
     </Reference>
-    <Reference Include="Relativity.Kepler, Version=1.0.1.627, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Relativity.ObjectManager.10.3.191.8\lib\net462\Relativity.Kepler.dll</HintPath>
+    <Reference Include="Relativity.Kepler, Version=2.15.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Relativity.Server.Kepler.SDK.2.15.6\lib\net462\Relativity.Kepler.dll</HintPath>
+    </Reference>
+    <Reference Include="Relativity.ObjectManager, Version=1.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Relativity.Server.ObjectManager.SDK.1.1.2\lib\net462\Relativity.ObjectManager.dll</HintPath>
     </Reference>
     <Reference Include="Relativity.Services.DataContracts, Version=10.3.191.8, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Relativity.ObjectManager.10.3.191.8\lib\net462\Relativity.Services.DataContracts.dll</HintPath>
@@ -57,6 +58,9 @@
     </Reference>
     <Reference Include="Relativity.Services.ServiceProxy, Version=1.0.1.627, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Relativity.ObjectManager.10.3.191.8\lib\net462\Relativity.Services.ServiceProxy.dll</HintPath>
+    </Reference>
+    <Reference Include="Relativity.Shared, Version=1.7.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Relativity.Server.Shared.SDK.1.7.1\lib\net462\Relativity.Shared.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -72,9 +76,6 @@
     <Compile Include="ManageJobConsoleTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\EventHandlers\EventHandlers.csproj">
       <Project>{6db0ba47-085c-4937-8ffb-7bf7130b21d0}</Project>
       <Name>EventHandlers</Name>
@@ -86,6 +87,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
