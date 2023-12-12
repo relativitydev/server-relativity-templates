@@ -1,7 +1,7 @@
 ﻿using $safeprojectname$.ObjectManager.Interfaces;
 using Relativity.API;
-using Relativity.Services.Objects;
-using Relativity.Services.Objects.DataContracts;
+using Relativity.ObjectManager.V1.Interfaces;
+using Relativity.ObjectManager.V1.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -1,6 +1,6 @@
 ﻿using kCura.EventHandler;
 using Relativity.API;
-using Relativity.Services.Objects;
+using Relativity.ObjectManager.V1.Interfaces;
 using System;
 using System.Net;
 
@@ -8,7 +8,7 @@ namespace $rootnamespace$
 {
 	[kCura.EventHandler.CustomAttributes.Description("Pre Uninstall EventHandler")]
 	[System.Runtime.InteropServices.Guid("$guid1$")]
-	public class $safeitemname$ : kCura.EventHandler.PreUninstallEventHandler
+	public class $safeitemname$ : kCura.EventHandler.$safeitemname$
 	{
 		public override Response Execute()
 		{

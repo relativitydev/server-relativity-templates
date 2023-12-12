@@ -1,14 +1,16 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
     <Name>Agents</Name>
-    <Description>Project Template for Relativity Manager Worker Agents</Description>
+    <Description>Project Template for Relativity Server Manager Worker Agents</Description>
+    <ProjectType>CSharp</ProjectType>
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
     <DefaultName>Agents</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
-    <Icon>__TemplateIcon.ico</Icon>
+    <Icon>__TemplateIcon.png</Icon>
+    <Hidden>true</Hidden>
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="Agents.csproj" File="Agents.csproj" ReplaceParameters="true">
@@ -33,14 +35,18 @@
 		<FullClassName>RelativityWizard.ChildWizard</FullClassName>
 	</WizardExtension>
 	<WizardData>
-		<packages repository="extension" repositoryId="Relativity.Templates.10a39f04-8755-4444-9928-c25527b9209b">
-			  <package id="BCrypt-Official" version="0.1.109" />
-			  <package id="Newtonsoft.Json" version="8.0.3" />
-			  <package id="Relativity.Agent" version="17.0.4" />
-			  <package id="Relativity.API" version="17.0.4" />
-			  <package id="Relativity.Logging" version="2019.5.1" />
-			  <package id="Relativity.ObjectManager" version="10.3.191.8" />
-			  <package id="Relativity.Other" version="10.3.191.8" />
+		<packages repository="extension" repositoryId="Relativity.Server.Templates.9987bc59-a092-4730-9e0d-b4a1d727a0f3">
+		  <package id="BCrypt-Official" version="0.1.109" />
+		  <package id="Newtonsoft.Json" version="8.0.3" />
+		  <package id="Relativity.Server.Agent.SDK" version="17.4.2" />
+		  <package id="Relativity.Server.API.SDK" version="17.4.2" />
+		  <package id="Relativity.Server.Kepler.SDK" version="2.15.6" />
+		  <package id="Relativity.Server.Logging.Interfaces.SDK" version="3000.4.4" />
+		  <package id="Relativity.Server.Logging.SDK" version="3000.4.4" />
+		  <package id="Relativity.Server.ObjectManager.SDK" version="1.1.2" />
+		  <package id="Relativity.Server.SDK" version="49.0.0" />
+		  <package id="Relativity.Server.Shared.SDK" version="1.7.1" />
+		  <package id="Relativity.Server.Utility.SDK" version="14.2.7" />
 		</packages>
 	</WizardData>
 </VSTemplate>

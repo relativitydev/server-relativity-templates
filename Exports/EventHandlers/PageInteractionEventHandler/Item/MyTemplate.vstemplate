@@ -1,11 +1,11 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
-    <DefaultName>Relativity PageInteractionEventHandler.cs</DefaultName>
-    <Name>Relativity PageInteractionEventHandler</Name>
-    <Description>Item Template for Relativity PageInteractionEventHandler</Description>
+    <DefaultName>Relativity Server PageInteractionEventHandler.cs</DefaultName>
+    <Name>Relativity Server PageInteractionEventHandler</Name>
+    <Description>Item Template for Relativity Server PageInteractionEventHandler</Description>
     <ProjectType>CSharp</ProjectType>
     <SortOrder>10</SortOrder>
-    <Icon>__TemplateIcon.ico</Icon>
+    <Icon>__TemplateIcon.png</Icon>
   </TemplateData>
   <TemplateContent>
     <References />

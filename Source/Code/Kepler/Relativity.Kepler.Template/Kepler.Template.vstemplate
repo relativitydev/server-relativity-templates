@@ -2,8 +2,8 @@
 <VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
     <Name>Relativity.Kepler.Template</Name>
-    <Description>Template used to create a new Relativity ADS deployable Kepler Service.</Description>
-    <Icon>favicon.ico</Icon>
+    <Description>Template used to create a new Relativity Server ADS deployable Kepler Service.</Description>
+    <Icon>favicon.png</Icon>
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <SortOrder>1000</SortOrder>

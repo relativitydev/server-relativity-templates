@@ -31,9 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Relativity.Kepler">
-      <HintPath>..\..\packages\Relativity.Kepler.2.2.1\lib\net462\Relativity.Kepler.dll</HintPath>
-    </Reference>
     <Reference Include="System"/>
     $if$ ($targetframeworkversion$ >= 3.5)
     <Reference Include="System.Core"/>
@@ -56,9 +53,11 @@
   <ItemGroup>
     <Content Include="license.txt" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Relativity.Server.Kepler.SDK">
+			<Version>2.15.6</Version>
+		</PackageReference>
+	</ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

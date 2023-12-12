@@ -59,7 +59,7 @@
     </VSTemplate>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="favicon.ico" />
+    <Content Include="favicon.png" />
     <Content Include="license.txt" />
   </ItemGroup>
   <ItemGroup />

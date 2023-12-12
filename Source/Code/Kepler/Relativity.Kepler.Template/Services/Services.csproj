@@ -49,16 +49,20 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Relativity.API, Version=10.3.191.8, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Relativity.Api.10.3.191.8\lib\net462\Relativity.API.dll</HintPath>
+      <HintPath>..\..\packages\Relativity.Server.API.SDK.17.4.2\lib\net462\Relativity.API.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Relativity.Kepler, Version=2.2.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Relativity.Kepler.2.2.1\lib\net462\Relativity.Kepler.dll</HintPath>
+      <HintPath>..\..\packages\Relativity.Server.Kepler.SDK.2.15.6\lib\net462\Relativity.Kepler.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Relativity.Logging, Version=2019.5.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Relativity.Logging.2019.5.1\lib\net462\Relativity.Logging.dll</HintPath>
+      <HintPath>..\..\packages\Relativity.Server.Logging.SDK.3000.4.4\lib\net462\Relativity.Logging.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Relativity.Logging.Interfaces, Version=2019.5.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Relativity.Logging.2019.5.1\lib\net462\Relativity.Logging.Interfaces.dll</HintPath>
+      <HintPath>..\..\packages\Relativity.Server.Logging.Interfaces.SDK.3000.4.4\lib\net462\Relativity.Logging.Interfaces.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -68,13 +72,12 @@
   <ItemGroup>
     <None Include="%24ext_ServiceModule%24\%24ext_ServiceModule%24Module.cs" />
     <None Include="%24ext_ServiceModule%24\v1\%24ext_ServiceName%24.cs" />
+    <None Include="packages.config" />
     <None Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="AssemblyInfo.cs" />
-    <None Include="packages.config" />
     <None Include="ProjectTemplate.csproj" />
-    <None Include="Service.ico" />
   </ItemGroup>
   <ItemGroup>
     <VSTemplate Include="Services.vstemplate">
@@ -82,7 +85,7 @@
     </VSTemplate>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="favicon.ico" />
+    <Content Include="favicon.png" />
     <Content Include="license.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

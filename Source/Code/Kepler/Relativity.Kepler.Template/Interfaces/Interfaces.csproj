@@ -48,9 +48,6 @@
     <Reference Include="Microsoft.VisualStudio.CoreUtility">
       <Private>False</Private>
     </Reference>
-    <Reference Include="Relativity.Kepler, Version=2.2.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Relativity.Kepler.2.2.1\lib\net462\Relativity.Kepler.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
@@ -70,7 +67,7 @@
     </VSTemplate>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="favicon.ico" />
+    <Content Include="favicon.png" />
     <Content Include="license.txt" />
     <None Include="ProjectTemplate.csproj">
       <SubType>Designer</SubType>
@@ -78,6 +75,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Relativity.Server.Kepler.SDK">
+      <Version>2.15.6</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />

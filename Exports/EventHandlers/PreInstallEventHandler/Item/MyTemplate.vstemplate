@@ -1,11 +1,11 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
-    <DefaultName>Relativity PreInstallEventHandler.cs</DefaultName>
-    <Name>Relativity PreInstallEventHandler</Name>
-    <Description>Item Template for Relativity PreInstallEventHandler</Description>
+    <DefaultName>Relativity Server PreInstallEventHandler.cs</DefaultName>
+    <Name>Relativity Server PreInstallEventHandler</Name>
+    <Description>Item Template for Relativity Server PreInstallEventHandler</Description>
     <ProjectType>CSharp</ProjectType>
     <SortOrder>10</SortOrder>
-    <Icon>__TemplateIcon.ico</Icon>
+    <Icon>__TemplateIcon.png</Icon>
   </TemplateData>
   <TemplateContent>
     <References />

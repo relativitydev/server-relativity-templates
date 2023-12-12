@@ -31,14 +31,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="kCura.EventHandler, Version=17.0.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Relativity.EventHandler.17.0.2\lib\net462\kCura.EventHandler.dll</HintPath>
+    <Reference Include="kCura.EventHandler, Version=17.4.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Relativity.Server.EventHandler.SDK.17.4.2\lib\net462\kCura.EventHandler.dll</HintPath>
     </Reference>
-    <Reference Include="Relativity.API, Version=17.0.4.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Relativity.API.17.0.4\lib\net462\Relativity.API.dll</HintPath>
+    <Reference Include="Relativity.API, Version=17.4.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Relativity.Server.API.SDK.17.4.2\lib\net462\Relativity.API.dll</HintPath>
     </Reference>
-    <Reference Include="Relativity.Kepler, Version=1.0.1.627, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Relativity.ObjectManager.10.3.191.8\lib\net462\Relativity.Kepler.dll</HintPath>
+    <Reference Include="Relativity.Kepler, Version=2.15.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Relativity.Server.Kepler.SDK.2.15.6\lib\net462\Relativity.Kepler.dll</HintPath>
+    </Reference>
+    <Reference Include="Relativity.ObjectManager, Version=1.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Relativity.Server.ObjectManager.SDK.1.1.2\lib\net462\Relativity.ObjectManager.dll</HintPath>
     </Reference>
     <Reference Include="Relativity.Services.DataContracts, Version=10.3.191.8, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Relativity.ObjectManager.10.3.191.8\lib\net462\Relativity.Services.DataContracts.dll</HintPath>
@@ -48,6 +51,9 @@
     </Reference>
     <Reference Include="Relativity.Services.ServiceProxy, Version=1.0.1.627, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Relativity.ObjectManager.10.3.191.8\lib\net462\Relativity.Services.ServiceProxy.dll</HintPath>
+    </Reference>
+    <Reference Include="Relativity.Shared, Version=1.7.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Relativity.Server.Shared.SDK.1.7.1\lib\net462\Relativity.Shared.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -64,10 +70,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <Content Include="lpieh.js" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="lpieh.js" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

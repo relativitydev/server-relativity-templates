@@ -2,8 +2,8 @@
 <VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
     <Name>Relativity.Kepler.Exception</Name>
-    <Description>Add a Relativity Kepler Exception</Description>
-    <Icon>favicon.ico</Icon>
+    <Description>Add a Relativity Server Kepler Exception</Description>
+    <Icon>favicon.png</Icon>
     <TemplateID>dc164600-42bf-4b66-8efa-c45975641d68</TemplateID>
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>

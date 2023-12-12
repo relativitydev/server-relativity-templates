@@ -1,11 +1,11 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
-    <DefaultName>Relativity PostInstallEventHandler.cs</DefaultName>
-    <Name>Relativity PostInstallEventHandler</Name>
-    <Description>Item Template for Relativity PostInstallEventHandler</Description>
+    <DefaultName>Relativity Server PostInstallEventHandler.cs</DefaultName>
+    <Name>Relativity Server PostInstallEventHandler</Name>
+    <Description>Item Template for Relativity Server PostSaveEventHandler</Description>
     <ProjectType>CSharp</ProjectType>
     <SortOrder>10</SortOrder>
-    <Icon>__TemplateIcon.ico</Icon>
+    <Icon>__TemplateIcon.png</Icon>
   </TemplateData>
   <TemplateContent>
     <References />

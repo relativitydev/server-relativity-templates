@@ -2,8 +2,8 @@
 <VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
     <Name>Relativity.Kepler.IModule</Name>
-    <Description>Add a Relativity Kepler IModule</Description>
-    <Icon>favicon.ico</Icon>
+    <Description>Add a Relativity Server Kepler IModule</Description>
+    <Icon>favicon.png</Icon>
     <TemplateID>62e1257e-accf-4ee7-aaf2-d5357ba41a89</TemplateID>
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>

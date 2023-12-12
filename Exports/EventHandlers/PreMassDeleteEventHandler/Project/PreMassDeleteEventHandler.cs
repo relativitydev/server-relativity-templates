@@ -1,6 +1,6 @@
 ﻿using kCura.EventHandler;
 using Relativity.API;
-using Relativity.Services.Objects;
+using Relativity.ObjectManager.V1.Interfaces;
 using System;
 using System.Net;
 
