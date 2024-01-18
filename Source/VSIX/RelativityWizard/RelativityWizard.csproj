@@ -150,7 +150,4 @@
     <Error Condition="!Exists('..\packages\Microsoft.VSSDK.BuildTools.17.8.2365\build\Microsoft.VSSDK.BuildTools.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.VSSDK.BuildTools.17.8.2365\build\Microsoft.VSSDK.BuildTools.targets'))" />
   </Target>
   <Import Project="..\packages\Microsoft.VSSDK.BuildTools.17.8.2365\build\Microsoft.VSSDK.BuildTools.targets" Condition="Exists('..\packages\Microsoft.VSSDK.BuildTools.17.8.2365\build\Microsoft.VSSDK.BuildTools.targets')" />
-  <PropertyGroup>
-    <PreBuildEvent>nuget restore $(ProjectDir)\packages.config -SolutionDir $(ProjectDir)</PreBuildEvent>
-  </PropertyGroup>
 </Project>
