@@ -1,0 +1,23 @@
+trigger:
+  branches:
+    include:
+    - '*'
+
+variables:
+- name: unregister.opt-in
+  value: false
+
+resources:
+  repositories:
+    - repository: azdo_templates
+      type: github
+      name: relativityone/azdo-templates
+      endpoint: relativityone
+      ref: 'refs/heads/vsix'
+
+stages:
+- template: vsix-server.yml@azdo_templates  # Template reference
+  parameters:
+    buildSteps:
+      - checkout: self
+      - checkout: azdo_templates
