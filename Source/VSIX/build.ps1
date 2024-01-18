@@ -1,4 +1,4 @@
-Set-Location .\RelativityWizard
-nuget restore packages.config -SolutionDir .
-Set-Location ..\AllRelativityTemplates
+$root = Get-Location
+nuget restore .\RelativityWizard\packages.config -SolutionDir .
+Set-Location $root
 dotnet build --configuration "Debug" AllRelativityTemplates.sln
