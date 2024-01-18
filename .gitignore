@@ -34,3 +34,5 @@ Source/Code/AdminMigrationUtility/AdminMigrationUtility.sln.DotSettings.user
 /Source/Code/RIP/packages
 /Source/Code/TestHelper/packages
 /Source/Code/WorkerManager/packages
+/Source/VSIX/packages
+/Source/VSIX/AllRelativityTemplates/packages
