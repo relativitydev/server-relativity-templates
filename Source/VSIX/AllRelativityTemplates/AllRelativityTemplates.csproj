@@ -99,75 +99,75 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\Antlr.3.4.1.9004.nupkg">
+    <Content Include="packages\Antlr.3.4.1.9004\Antlr.3.4.1.9004.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="packages\Microsoft.AspNet.Mvc.5.2.3.nupkg">
+    <Content Include="packages\Microsoft.AspNet.Mvc.5.2.3\Microsoft.AspNet.Mvc.5.2.3.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="packages\Microsoft.AspNet.Mvc.FixedDisplayModes.5.0.0.nupkg">
+    <Content Include="packages\Microsoft.AspNet.Mvc.FixedDisplayModes.5.0.0\Microsoft.AspNet.Mvc.FixedDisplayModes.5.0.0.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="packages\Microsoft.AspNet.Razor.3.2.3.nupkg">
+    <Content Include="packages\Microsoft.AspNet.Razor.3.2.3\Microsoft.AspNet.Razor.3.2.3.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="packages\Microsoft.AspNet.Web.Optimization.1.1.3.nupkg">
+    <Content Include="packages\Microsoft.AspNet.Web.Optimization.1.1.3\Microsoft.AspNet.Web.Optimization.1.1.3.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="packages\Microsoft.AspNet.WebApi.4.0.20710.0.nupkg">
+    <Content Include="packages\Microsoft.AspNet.WebApi.4.0.20710.0\Microsoft.AspNet.WebApi.4.0.20710.0.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0.nupkg">
+    <Content Include="packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\Microsoft.AspNet.WebApi.Client.4.0.20710.0.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0.nupkg">
+    <Content Include="packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\Microsoft.AspNet.WebApi.Core.4.0.20710.0.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0.nupkg">
+    <Content Include="packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="packages\Microsoft.AspNet.WebPages.3.2.3.nupkg">
+    <Content Include="packages\Microsoft.AspNet.WebPages.3.2.3\Microsoft.AspNet.WebPages.3.2.3.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="packages\Microsoft.jQuery.Unobtrusive.Ajax.3.2.2.nupkg">
+    <Content Include="packages\Microsoft.jQuery.Unobtrusive.Ajax.3.2.2\Microsoft.jQuery.Unobtrusive.Ajax.3.2.2.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="packages\Microsoft.jQuery.Unobtrusive.Validation.3.2.2.nupkg">
+    <Content Include="packages\Microsoft.jQuery.Unobtrusive.Validation.3.2.2\Microsoft.jQuery.Unobtrusive.Validation.3.2.2.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="packages\Microsoft.Net.Http.2.0.20710.0.nupkg">
+    <Content Include="packages\Microsoft.Net.Http.2.0.20710.0\Microsoft.Net.Http.2.0.20710.0.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="packages\Microsoft.Web.Infrastructure.1.0.0.0.nupkg">
+    <Content Include="packages\Microsoft.Web.Infrastructure.1.0.0.0\Microsoft.Web.Infrastructure.1.0.0.0.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="packages\Newtonsoft.Json.8.0.3.nupkg">
+    <Content Include="packages\Newtonsoft.Json.8.0.3\Newtonsoft.Json.8.0.3.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="packages\NUnit.2.6.3.nupkg">
+    <Content Include="packages\NUnit.2.6.3\NUnit.2.6.3.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="packages\NUnit.2.6.4.nupkg">
+    <Content Include="packages\NUnit.2.6.4\NUnit.2.6.4.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="packages\WebGrease.1.5.2.nupkg">
+    <Content Include="packages\WebGrease.1.5.2\WebGrease.1.5.2.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -223,7 +223,7 @@
       <IncludeInVSIX>true</IncludeInVSIX>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="packages\moq.4.2.1510.2205.nupkg">
+    <Content Include="packages\moq.4.2.1510.2205\moq.4.2.1510.2205.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -247,23 +247,23 @@
       <IncludeInVSIX>true</IncludeInVSIX>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="packages\BCrypt-Official.0.1.109.nupkg">
+    <Content Include="packages\BCrypt-Official.0.1.109\BCrypt-Official.0.1.109.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\bootstrap.4.3.1.nupkg">
+    <Content Include="packages\bootstrap.4.3.1\bootstrap.4.3.1.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\jQuery.Validation.1.17.0.nupkg">
+    <Content Include="packages\jQuery.Validation.1.17.0\jQuery.Validation.1.17.0.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\popper.js.1.14.0.nupkg">
+    <Content Include="packages\popper.js.1.14.0\popper.js.1.14.0.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\RelativityDev.RelativityTestHelpers.6.7.0.1.nupkg">
+    <Content Include="packages\RelativityDev.RelativityTestHelpers.6.7.0.1\RelativityDev.RelativityTestHelpers.6.7.0.1.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -275,11 +275,11 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\NUnit.3.12.0.nupkg">
+    <Content Include="packages\NUnit.3.12.0\NUnit.3.12.0.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\NUnit3TestAdapter.3.12.0.nupkg">
+    <Content Include="packages\NUnit3TestAdapter.3.12.0.\NUnit3TestAdapter.3.12.0.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -311,155 +311,155 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\relativity.kepler.2.3.2.nupkg">
+    <Content Include="packages\relativity.kepler.2.3.2\relativity.kepler.2.3.2.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\relativity.api.10.3.226.8.nupkg">
+    <Content Include="packages\relativity.api.10.3.226.8\relativity.api.10.3.226.8.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\relativity.custompages.10.3.226.8.nupkg">
+    <Content Include="packages\relativity.custompages.10.3.226.8\relativity.custompages.10.3.226.8.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\relativity.eventhandler.10.3.226.8.nupkg">
+    <Content Include="packages\relativity.eventhandler.10.3.226.8\relativity.eventhandler.10.3.226.8.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\relativity.objectmanager.10.3.226.8.nupkg">
+    <Content Include="packages\relativity.objectmanager.10.3.226.8\relativity.objectmanager.10.3.226.8.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\relativity.other.10.3.226.8.nupkg">
+    <Content Include="packages\relativity.other.10.3.226.8\relativity.other.10.3.226.8.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\Microsoft.AspNet.Mvc.5.2.4.nupkg">
+    <Content Include="packages\Microsoft.AspNet.Mvc.5.2.4\Microsoft.AspNet.Mvc.5.2.4.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\Microsoft.AspNet.Razor.3.2.4.nupkg">
+    <Content Include="packages\Microsoft.AspNet.Razor.3.2.4\Microsoft.AspNet.Razor.3.2.4.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\Microsoft.AspNet.WebPages.3.2.4.nupkg">
+    <Content Include="packages\Microsoft.AspNet.WebPages.3.2.4\Microsoft.AspNet.WebPages.3.2.4.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\BouncyCastle.1.8.5.nupkg">
+    <Content Include="packages\BouncyCastle.1.8.5\BouncyCastle.1.8.5.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\MailKit.2.2.0.nupkg">
+    <Content Include="packages\MailKit.2.2.0\MailKit.2.2.0.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\MimeKit.2.2.0.nupkg">
+    <Content Include="packages\MimeKit.2.2.0\MimeKit.2.2.0.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\Newtonsoft.Json.12.0.2.nupkg">
+    <Content Include="packages\Newtonsoft.Json.12.0.2\Newtonsoft.Json.12.0.2.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\Polly.5.3.1.nupkg">
+    <Content Include="packages\Polly.5.3.1\Polly.5.3.1.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\Relativity.DataExchange.Client.SDK.1.4.0.nupkg">
+    <Content Include="packages\Relativity.DataExchange.Client.SDK.1.4.0\Relativity.DataExchange.Client.SDK.1.4.0.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\Relativity.OAuth2.Client.1.0.27.nupkg">
+    <Content Include="packages\Relativity.OAuth2.Client.1.0.27\Relativity.OAuth2.Client.1.0.27.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\Relativity.OutsideIn.2019.3.0.nupkg">
+    <Content Include="packages\Relativity.OutsideIn.2019.3.0\Relativity.OutsideIn.2019.3.0.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\RelativityDev.RelativityTestHelpers.7.4.1.1.nupkg">
+    <Content Include="packages\RelativityDev.RelativityTestHelpers.7.4.1.1\RelativityDev.RelativityTestHelpers.7.4.1.1.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\Relativity.Telemetry.Client.9.4.164.nupkg">
+    <Content Include="packages\Relativity.Telemetry.Client.9.4.164\Relativity.Telemetry.Client.9.4.164.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\Relativity.Transfer.Client.6.0.16.nupkg">
+    <Content Include="packages\Relativity.Transfer.Client.6.0.16\Relativity.Transfer.Client.6.0.16.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\SSH.NET.2016.0.0.nupkg">
+    <Content Include="packages\SSH.NET.2016.0.0\SSH.NET.2016.0.0.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\ZetaLongPaths.1.0.0.16.nupkg">
+    <Content Include="packages\ZetaLongPaths.1.0.0.16\ZetaLongPaths.1.0.0.16.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\Relativity.ObjectManager.10.3.191.8.nupkg">
+    <Content Include="packages\Relativity.ObjectManager.10.3.191.8\Relativity.ObjectManager.10.3.191.8.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\Relativity.Other.10.3.191.8.nupkg">
+    <Content Include="packages\Relativity.Other.10.3.191.8\Relativity.Other.10.3.191.8.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\jQuery.Validation.1.19.3.nupkg">
+    <Content Include="packages\jQuery.Validation.1.19.3\jQuery.Validation.1.19.3.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\jQuery.3.6.0.nupkg">
+    <Content Include="packages\jQuery.3.6.0\jQuery.3.6.0.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\relativity.server.agent.sdk.17.4.2.nupkg">
+    <Content Include="packages\relativity.server.agent.sdk.17.4.2\relativity.server.agent.sdk.17.4.2.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\relativity.server.api.sdk.17.4.2.nupkg">
+    <Content Include="packages\relativity.server.api.sdk.17.4.2\relativity.server.api.sdk.17.4.2.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\relativity.server.custompages.sdk.17.4.2.nupkg">
+    <Content Include="packages\relativity.server.custompages.sdk.17.4.2\relativity.server.custompages.sdk.17.4.2.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\relativity.server.eventhandler.sdk.17.4.2.nupkg">
+    <Content Include="packages\relativity.server.eventhandler.sdk.17.4.2\relativity.server.eventhandler.sdk.17.4.2.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\relativity.server.logging.sdk.3000.4.4.nupkg">
+    <Content Include="packages\relativity.server.logging.sdk.3000.4.4\relativity.server.logging.sdk.3000.4.4.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\Relativity.Server.Kepler.SDK.2.15.6.nupkg">
+    <Content Include="packages\Relativity.Server.Kepler.SDK.2.15.6\Relativity.Server.Kepler.SDK.2.15.6.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\Relativity.Server.Utility.SDK.14.2.7.nupkg">
+    <Content Include="packages\Relativity.Server.Utility.SDK.14.2.7\Relativity.Server.Utility.SDK.14.2.7.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\Relativity.Server.SDK.49.0.0.nupkg">
+    <Content Include="packages\Relativity.Server.SDK.49.0.0\Relativity.Server.SDK.49.0.0.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\Relativity.Server.Logging.Interfaces.SDK.3000.4.4.nupkg">
+    <Content Include="packages\Relativity.Server.Logging.Interfaces.SDK.3000.4.4\Relativity.Server.Logging.Interfaces.SDK.3000.4.4.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\Relativity.Server.Shared.SDK.1.7.1.nupkg">
+    <Content Include="packages\Relativity.Server.Shared.SDK.1.7.1\Relativity.Server.Shared.SDK.1.7.1.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\Relativity.Server.ObjectManager.SDK.1.1.2.nupkg">
+    <Content Include="packages\Relativity.Server.ObjectManager.SDK.1.1.2\Relativity.Server.ObjectManager.SDK.1.1.2.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\bcrypt.net-core.1.6.0.nupkg">
+    <Content Include="packages\bcrypt.net-core.1.6.0\bcrypt.net-core.1.6.0.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -492,6 +492,9 @@
     <Reference Include="Microsoft.VisualStudio.TemplateWizardInterface, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>nuget restore $(SolutionDir)\packages.config -SolutionDir $(ProjectDir)</PreBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
