@@ -493,7 +493,8 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PreBuildEvent>nuget restore $(SolutionDir)\packages.config -SolutionDir $(ProjectDir)</PreBuildEvent>
+    <PreBuildEvent>powershell -Command "&amp; {if (-not (Test-Path '$(ProjectDir)..\packages\nuget.exe')) { Invoke-WebRequest https://dist.nuget.org/win-x86-commandline/latest/nuget.exe -OutFile $(ProjectDir)..\packages\nuget.exe -ErrorAction Stop } else { exit }}"
+$(ProjectDir)..\packages\nuget.exe restore $(SolutionDir)packages.config -SolutionDir $(ProjectDir)</PreBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
