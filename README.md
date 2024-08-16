@@ -1,65 +1,72 @@
-# relativity-templates
-The Relativity Server Templates are compatible with Visual Studio 2022 and consist of the following:
-- Agent template
-- Custom page templates
-    - Custom page MVC 5 template
-    - Custom page Web Forms template
-- Event Handler templates
-    - Console Event handler template
-    - List Page Interaction Event handler template
-    - Page Interaction Event handler template
-    - Post-Install Event handler template
-    - Post-Save Event handler template
-    - Pre-Cascade Delete Event handler template
-    - Pre-Delete Event handler template
-    - Pre-Install Event handler template
-    - Pre-Load Event handler template
-    - Pre-Mass Delete Event handler template
-    - Pre-Save Event handler template
-    - Pre-Uninstall Event handler template
-- Manager-Worker Agent template
-- Kepler
-    - Kepler Project Template (creates Interfaces and Services projects in one go, has a UI Wizard)
-    - Kepler Exception Item Template
-    - Kepler Exception.FaultSafe Item Template
-    - Kepler IModule Item Template
-    - Kepler IService Item Template
-    - Kepler Module Item Template
-    - Kepler Serice Item Template
+# server-relativity-templates
+The Relativity Server Templates are compatible with Visual Studio 2022 and consist of Project Templates as well as templates for individual files.
 
-## Maintainers
-
-This repository is maintained by the Relativity Server Vertical.
 
 ---
 
 ## Installation
-To install all of the templates simply double click the .vsix file and click the “Install” button. If Visual Studio is already open you will have to restart it for the templates to populate.
+
+To install all of the templates:
+1. Build the solution [AllRelativityTemplates.sln](https://github.com/relativitydev/server-relativity-templates/blob/main/Source/VSIX/AllRelativityTemplates.sln) in Visual Studio 2022.
+2. Find the location of the generated .vsix file in the Visual Studio build output.
+3. In File Explorer, double click the .vsix file and click the “Install” button. If Visual Studio is already open, you will have to restart it for the templates to populate.
 
 ## Project Templates
 
-To use these click File -> New Project
-All the Relativity Project Templates will be found under:
-- 	Visual C#/Relativity/Agent/
-- 	Visual C#/Relativity/CustomPages/
-- 	Visual C#/Relativity/EventHandlers/
-- 	Visual C#/Relativity/ManagerWorker/
-- 	Visual C#/Relativity/Kepler/
+To create a project using a Project Template, choose File -> New -> Project from the VS2022 menu, or right-click on the solution in the Solution Explorer, and choose Add -> New Project.
 
-_* If there are any errors make sure you have all the references setup correctly._
+- Agent templates
+    - Relativity Server Agent
+    - Relativity Server Manager Worker Agent
+- Custom page templates
+    - Relativity Server Custom Page Form (for Custom Pages that use Web Forms)
+    - Relativity Server Custom Page MVC 5
+- Event Handler templates
+    - Relativity Server ConsoleEventHandler
+    - Relativity Server ListPageInteractionEventHandler
+    - Relativity Server PageInteractionEventHandler
+    - Relativity Server PostInstallEventHandler
+    - Relativity Server PostSaveEventHandler
+    - Relativity Server PreCascadeDeleteEventHandler
+    - Relativity Server PreDeleteEventHandler
+    - Relativity Server PreInstallEventHandler
+    - Relativity Server PreLoadEventHandler
+    - Relativity Server PreMassDeleteEventHandler
+    - Relativity Server PreSaveEventHandler
+    - Relativity Server PreUninstallEventHandler
+- Kepler Service templates
+    - Relativity Server Kepler Project Template (creates Interfaces and Services projects in one go, has a UI Wizard)
 
-## Item Templates
+![image](./Images/VS2022-Project-Templates.png)
 
-To use these right click on your desired solution and then click “add new item”
-All the Relativity Item Templates will be found under:
-- 	Visual C#/Relativity/Agent/
-- 	Visual C#/Relativity/CustomPages/
-- 	Visual C#/Relativity/EventHandlers/
-- 	Visual C#/Relativity/Kepler/
+## File Templates
 
-_* Note that if the project you add the item to does not have the correct references added, Visual Studio will tell you that you are missing assembly references._
+To create a file using a file template, right-click on a Project in the Solution Explorer, and choose Add -> New Item.
 
-## Manager-Worker Agent template
+The file templates are all available under these categories.
+
+- C# Items
+  - Relativity 
+    - Agent
+    - CustomPages
+    - EventHandlers
+    - Kepler
+
+The image below shows the file templates available in the Kepler category.
+
+![image](./Images/VS2022-File-Templates.png)
+
+## Nuget Packages
+
+The Nuget packages in these projects can be found in the public feed for Relativity Server. 
+
+For Visual Studio 2022, the best way to specify your Nuget configuration is to create a nuget.config file.
+We have provided instructions [here](https://platform.relativity.com/Server2023/Content/Getting_Started/Create_nuget_config_file.htm).
+
+## Template details
+
+### Manager-Worker Agent template
+
 The Manager-Worker Agent project template is an architectural pattern where a long-running Agent task can be split into single or multiple manager/worker agents and execute the task in parallel. This template also contains recommended best practices for coding and features like resource-pool aware agents, configure agents to run in off hours, a custom page to view manager/worker agents progress, unit tests projects etc.
 
 The following projects are created:
