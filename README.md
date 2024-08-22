@@ -37,7 +37,7 @@ To create a project using a Project Template, choose File -> New -> Project from
 - Kepler Service templates
     - Relativity Server Kepler Project Template (creates Interfaces and Services projects in one go, has a UI Wizard)
 
-![image](./Images/VS2022-Project-Templates.png)
+<kbd> ![image](./Images/VS2022-Project-Templates.png) </kbd>
 
 ## File Templates
 
@@ -53,8 +53,7 @@ The file templates are all available under these categories.
     - Kepler
 
 The image below shows the file templates available in the Kepler category.
-
-![image](./Images/VS2022-File-Templates.png)
+<kbd> ![image](./Images/VS2022-File-Templates.png) </kbd>
 
 ## Nuget Packages
 
