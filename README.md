@@ -1,19 +1,19 @@
 # server-relativity-templates
-The Relativity Server Templates are compatible with Visual Studio 2022 and consist of Project Templates as well as templates for individual files.
+The Visual Studio Templates for Relativity Server enable you to easily build extensions for Relativity Server, such as Custom Agents, Custom Pages, Event Handlers and Kepler Services. These templates are compatible with Visual Studio 2022 and consist of Project Templates as well as templates for individual files.
 
 
 ---
 
 ## Installation
 
-To install all of the templates:
+To install all templates:
 1. Build the solution [AllRelativityTemplates.sln](https://github.com/relativitydev/server-relativity-templates/blob/main/Source/VSIX/AllRelativityTemplates.sln) in Visual Studio 2022.
 2. Find the location of the generated .vsix file in the Visual Studio build output.
-3. In File Explorer, double click the .vsix file and click the “Install” button. If Visual Studio is already open, you will have to restart it for the templates to populate.
+3. In File Explorer, double click the .vsix file and click the **Install** button. If Visual Studio is already open, you will have to restart it for the templates to populate.
 
 ## Project Templates
 
-To create a project using a Project Template, choose File -> New -> Project from the VS2022 menu, or right-click on the solution in the Solution Explorer, and choose Add -> New Project.
+To create a project using a Project Template, choose **File** -> **New** -> **Project** from the VS2022 menu, or right-click on the solution in the Solution Explorer, and choose **Add** -> **New Project**.
 
 - Agent templates
     - Relativity Server Agent
@@ -41,9 +41,9 @@ To create a project using a Project Template, choose File -> New -> Project from
 
 ## File Templates
 
-To create a file using a file template, right-click on a Project in the Solution Explorer, and choose Add -> New Item.
+To create a file using a file template, right-click on a Project in the Solution Explorer, and choose **Add** -> **New Item**.
 
-The file templates are all available under these categories.
+The file templates are all available under the following categories.
 
 - C# Items
   - Relativity 
@@ -57,7 +57,7 @@ The image below shows the file templates available in the Kepler category.
 
 ## Nuget Packages
 
-The Nuget packages in these projects can be found in the public feed for Relativity Server. 
+The Nuget packages in these projects can be found in the [public feed](https://relativitypackageseastus.jfrog.io/ui/native/server-nuget-remote/) for Relativity Server. 
 
 For Visual Studio 2022, the best way to specify your Nuget configuration is to create a nuget.config file.
 We have provided instructions [here](https://platform.relativity.com/Server2023/Content/Getting_Started/Create_nuget_config_file.htm).
@@ -82,8 +82,8 @@ The following projects are created:
 
 	This project includes custom pages to manage both the worker and the manager queue.  Once you create an application which includes the custom pages, you can create a tab to view each queue using the following URLs:
 
-        */Relativity/CustomPages/\<AppGuid>/ManagerAgent/Index/?StandardsCompliance=true&%AppID%*
-        */Relativity/CustomPages/\<AppGuid>/WorkerAgent/Index/?StandardsCompliance=true&%AppID%*
+        %applicationPath%/CustomPages/<AppGuid>/ManagerAgent/Index/?StandardsCompliance=true&%AppID%
+        %applicationPath%/CustomPages/<AppGuid>/WorkerAgent/Index/?StandardsCompliance=true&%AppID%
 
  - **CustomPages.NUnit**
 
@@ -101,9 +101,9 @@ The following projects are created:
 
 	This project includes the shared code between the projects in the solution.  The only thing you should need to change are these three constants in the Constant class:
 
-*ApplicationGuid* – the GUID of the application
-*ManagerQueueTab* – the GUID of the tab which displays the manager queue custom page
-*WorkerQueueTab* – the GUID of the tab which displays the worker queue custom page
+    - **ApplicationGuid** – the GUID of the application
+    - **ManagerQueueTab** – the GUID of the tab which displays the manager queue custom page
+    - **WorkerQueueTab** – the GUID of the tab which displays the worker queue custom page
 
  - **Helpers.NUnit**
 
